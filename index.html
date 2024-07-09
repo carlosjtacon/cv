@@ -1,14 +1,21 @@
+---
+title: Carlos Tacón - Curriculum Vitae
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carlos Tacón - Curriculum Vitae</title>
+    <title>{{ page.title }}</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/cv.css">
 </head>
 <body>
-        <!-- two columns layout -->
-            HELLO HAHA
+    <span>Languages:</span>
+    <ul>
+      {% for language in site.data.cv.languages %}
+        <li>Title: {{ language.bane }}</li>
+      {% endfor %}    
+    </ul>
 </body>
 </html>
