@@ -1,0 +1,82 @@
+{
+    "information": {
+        "name": "Carlos Tacón",
+        "date_of_birth": "May 03, 1994",
+        "place_of_birth": "Alcalá de Henares, Madrid, Spain", 
+        "contact": "carlosjtacon (at) gmail (dot) com",
+        "website": "www.carlosjtacon.com",
+        "description": "I like art, design, culture, and technology. Versatile, highly motivated, responsible, and fast-learner. Technical and creative mind."
+    },
+    "technical_skills": {
+        "expert": [],
+        "intermediate": [],
+        "begginner": [],
+        "programming_languages": [],
+        "vfx_software": []
+    },
+    "languages": [
+        {
+            "name": "Spanish",
+            "proficiency": "Native"
+        },
+        {
+            "name": "English",
+            "proficiency": "Advanced Proficiency, C1"
+        },
+        {
+            "name": "French",
+            "proficiency": "Basic Usage, A2"
+        }
+    ],
+    "experience": [
+        {
+            "title": "Lighting Lead + Pipeline Tools Developer",
+            "company_name": "Ghost VFX",
+            "location": "London, United Kingdom",
+            "start_date": "January 2023",
+            "end_date": "Current Role",
+            "description": "Working in shows with a team of lighting artists, helping with work organisation, solving problems and doing my own shots. I also work with the pipeline team in tools and design workflows for the department globally, playing a key role on how to improve the way we work in the company - currently focusing in multi shot workflows in both 3D and 2D, USD and Houdini Solaris.",
+            "shows": [
+                "Star Trek: Discovery, S05",
+                "Uglies (TBA)"
+            ],
+            "pipeline": [
+                ""
+            ]
+        },
+        {
+            "title": "Environments TD",
+            "company_name": "Framestore",
+            "location": "London, United Kingdom",
+            "start_date": "January 2022",
+            "end_date": "January 2023",
+            "description": "",
+            "shows": [
+                "Civil War (2024)",
+                "His Dark Materials, Season 03 (xxx)",
+                "Mickey 17 (TBA)"
+            ]
+        }
+    ],
+    "education": {
+        "traditional_education": [
+            {
+                "title": "Visual Effects Proffessional Training",
+                "school_name": "The Animation Workshop",
+                "location": "Viborg, Denmark",
+                "start_date": "September 2018",
+                "end_date": "December 2018"
+            }
+        ],
+        "online_courses": [
+            {
+                "name": "Arnold Fastrack",
+                "where": "Elephant VFX"
+            },
+            {
+                "name": "Introduction to Digital Colour Theory",
+                "where": "FXPHD"
+            }
+        ] 
+    }
+}
