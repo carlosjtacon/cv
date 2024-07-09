@@ -1,12 +1,11 @@
 ---
-title: Carlos Tacón - Curriculum Vitae
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>Carlos Tacon - Curriculum Vitae</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/cv.css">
 </head>
@@ -14,7 +13,7 @@ title: Carlos Tacón - Curriculum Vitae
     <span>Languages:</span>
     <ul>
       {% for language in site.data.cv.languages %}
-        <li>Title: {{ language.bane }}</li>
+        <li>Title: {{ language.name }}</li>
       {% endfor %}    
     </ul>
 </body>
