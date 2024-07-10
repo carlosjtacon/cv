@@ -7,14 +7,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos Tacon - Curriculum Vitae</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="css/cv.css">
+    <link rel="stylesheet" href="/assets/css/cv.css">
 </head>
 <body>
-    <span>Languages:</span>
+    <h1>{{ site.data.cv.information.name }}</h1>
+    <h2>{{ site.data.cv.information.role }}</h2>
+    
+    <h3>Information</h3>
+    <p>{{ site.data.cv.information.fullname }}</p>
+    <p>{{ site.data.cv.information.place_of_birth }} · {{ site.data.cv.information.date_of_birth }}</p>
+    <p>{{ site.data.cv.information.contact }}</p>
+    <p>{{ site.data.cv.information.website }}</p>
+    <p>{{ site.data.cv.information.description }}</p>
+
+    <h3>Technical Skills</h3>
+    {% for skill_type in site.data.cv.technical_skills %}
+    <h4>{{ skill_type[0] | capitalize }}</h4>
     <ul>
-      {% for language in site.data.cv.languages %}
-        <li>Title: {{ language.name }}</li>
-      {% endfor %}    
+    {% for skill in skill_type[1] %}
+        <li>{{ skill }}</li>
+    {% endfor %}
     </ul>
+    {% endfor %}
+
+    <h3>Languages</h3>
+    <ul>
+    {% for language in site.data.cv.languages %}
+        <li>
+            <b>{{ language.name }}</b>
+            <i>{{ language.proficiency }}</i>
+        </li>
+    {% endfor %}
+    </ul>
+
+    <h3>Professional Experience</h3>
+    <ul>
+    {% for experience in site.data.cv.experience %}
+        <li>
+            <i>{{ experience.start_date }} - {{ experience.end_date }}</i>
+            <br>
+            <b>{{ experience.title }}</b>
+            <br>
+            {{ experience.description }}
+            <br>
+            {{ experience.company_name }} · {{ experience.location }}
+            <br>
+            <ul>
+                {% for pipeitem in experience.pipeline %}
+                <li>{{ pipeitem }}</li>
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for show in experience.shows %}
+                <li>{{ show }}</li>
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+    </ul>
+
+    <h3>Education</h3>
+    <ul>
+    {% for education in site.data.cv.education.traditional_education %}
+        <li>
+            <i>{{ education.start_date }} - {{ education.end_date }}</i>
+            <br>
+            <b>{{ education.title }}</b>
+            <br>
+            {{ education.school_name }} · {{ education.location }}
+        </li>
+    {% endfor %}
+    </ul>
+    <h4>Online Courses</h4>
+    <ul>
+    {% for education in site.data.cv.education.online_courses %}
+        <li>
+            <b>{{ education.name }}</b> · <i>{{ education.where }}</i>
+        </li>
+    {% endfor %}
+    </ul>
+
 </body>
 </html>
