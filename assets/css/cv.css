@@ -85,11 +85,6 @@ ul, li {
     padding: 0;
 }
 
-ul.timeline li {
-    list-style: disc;
-    margin-bottom: 1em;
-}
-
 ul.simplelist {
     margin-top: 0.5em;
     /* font-size: 0.95em; */
@@ -118,37 +113,40 @@ p.bulletpoints {
     color: var(--accentBlue)
 }
 
-/* 
-ul.numbered {
-border-left: 3px solid #b3b3b3;
-counter-reset: numbered-list;
-margin-left: 10px;
-position: relative;
+ul.timeline li {
+    list-style: disc;
+    margin-bottom: 1em;
 }
-ul.numbered li {
-font-size: 16px;
-line-height: 1.2;
-margin-bottom: 30px;
-padding-left: 30px;
+
+/* Alternative timeline style
+
+ul.timeline {
+    border-left: 2px solid var(--inkColor);
+    position: relative;
 }
-ul.numbered li:last-child {
-border-left: 3px solid white;
-margin-left: -3px;
+
+ul.timeline li {
+    margin-bottom: 1em;
+    padding-left: 1em;
 }
-ul.numbered li:before {
-background-color: #b3b3b3;
-border: 3px solid white;
-border-radius: 50%;
-color: white;
-content: counter(numbered-list, decimal);
-counter-increment: numbered-list;
-display: block;
-font-weight: bold;
-width: 30px;
-height: 30px;
-margin-top: -0.5em;
-line-height: 30px;
-position: absolute;
-left: -19.5px;
-text-align: center;
-} */
+
+ul.timeline li:last-child {
+    border-left: 3px solid var(--backgroundColor);
+    margin-left: -3px;
+}
+
+ul.timeline li:before {
+    background-color: var(--inkColor);
+    border: 3px solid var(--inkColor);
+    border-radius: 50%;
+    color: white;
+    content: " ";
+    display: block;
+    width: 0.5em;
+    height: 0.5em;
+    margin-top: 0;
+    position: absolute;
+    left: -0.55em;
+} 
+
+*/

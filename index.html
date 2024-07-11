@@ -75,11 +75,9 @@
             <ul class="timeline">
                 {% for education in site.data.cv.education.traditional_education %}
                 <li>
-                    <i>{{ education.start_date }} - {{ education.end_date }}</i>
-                    <br>
-                    <b>{{ education.title }}</b>
-                    <br>
-                    {{ education.school_name }} · {{ education.location }}
+                    <p><i>{{ education.start_date }} - {{ education.end_date }}</i></p>
+                    <p><b>{{ education.title }}</b></p>
+                    <p><i>{{ education.school_name }} · {{ education.location }}</i></p>
                 </li>
                 {% endfor %}
             </ul>
