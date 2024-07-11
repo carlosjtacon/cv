@@ -41,8 +41,7 @@
             <ul class="simplelist">
             {% for language in site.data.cv.languages %}
                 <li>
-                    <b>{{ language.name }}</b>
-                    <i>{{ language.proficiency }}</i>
+                    <p><b>{{ language.name }}</b> · <i>{{ language.proficiency }}</i></p>
                 </li>
             {% endfor %}
             </ul>

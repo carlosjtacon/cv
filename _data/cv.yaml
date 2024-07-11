@@ -10,22 +10,22 @@ information:
     motivated, responsible, and fast-learner. Technical and creative mind.
 technical_skills:
   expert:
-    - Software Development
-    - Scripting
     - Lighting
+    - Environments
     - Lookdev
-    - Layout
     - Scene Assembly
-    - 3D Environments
+    - Layout
+    - Scripting
+    - Software Development
   intermediate:
     - Texturing
-    - Cinematography
-    - Photography
     - Photogrammetry
     - Compositing
+    - Cinematography
+    - Photography
   begginner:
     - Modeling
-    - UVs
+    - UV Mapping
     - Digital Matte Paiting
   programming:
     - Python
@@ -37,91 +37,91 @@ technical_skills:
     - Arnold
     - VRay
     - 3DEqualizer
-    - Mari Substance Painter
-    - Substance Designer Houdini
+    - Mari 
+    - Substance Painter
+    - Substance Designer 
+    - Houdini
     - Nuke
     - SpeedTree
-    - MASH UVLayout
-    - Metashape/Photoscan
-    - RV VrayScatter
+    - MASH
+    - Metashape
+    - RV
     - Afanasy
     - Deadline
-    - Ftrack
+    - FTrack
     - Shotgun
     - Linux
     - Windows
     - macOS
 languages:
   - name: Spanish
-    proficiency: Native
+    proficiency: Native Speaker
   - name: English
-    proficiency: Advanced Proficiency, C1
+    proficiency: Professional C1
   - name: French
-    proficiency: Basic Usage, A2
+    proficiency: Basic A2
 experience:
   - title: Lighting Lead + Pipeline Tools Developer
     company_name: Ghost VFX
     location: London, United Kingdom
     start_date: January 2023
     end_date: Current Role
-    description: Working in shows with a team of lighting artists, helping with work
-      organisation, solving problems and doing my own shots. I also work with
-      the pipeline team in tools and design workflows for the department
-      globally, playing a key role on how to improve the way we work in the
-      company - currently focusing in multi shot workflows in both 3D and 2D,
-      USD and Houdini Solaris.
+    description: Show lighting and team management, helping solving problems and lighting sequences. Pipeline tools and workflows USD and Houdini Solaris.
     shows:
-      - "Star Trek: Discovery, S05"
+      - "Star Trek: Discovery (S05)"
       - Uglies (TBA)
-      - "Render Submitter: Standalone tool written in Python and QT to submit
-        shots to the farm."
-  - title: Environments TD
+      - "Render Submitter (Standalone tool written in Python and QT to submit
+        shots to the farm)"
+  - title: Environments Technical Director
     company_name: Framestore
     location: London, United Kingdom
     start_date: January 2022
     end_date: January 2023
-    description: Environments generalist, procedural workflows, scattering, lookdev,
-      lighting
+    description: Environments, Procedural workflows, Scattering, Lookdev,
+      Lighting
     shows:
+      - Moon Knight (S01)
       - Civil War (2024)
-      - His Dark Materials, Season 03 (xxx)
+      - His Dark Materials (S03)
       - Mickey 17 (TBA)
   - title: Visual Effects Artist
     company_name: GhostVFX
     location: Copenhagen, Denmark
     start_date: May 2019
     end_date: December 2021
-    description: "Visual Effects Artist: Mainly Lighting and Look Development. Also
-      Generalist, 3D Environments, Procedural Texturing"
-    shows: []
-  - title: Visual Effects Teacher
+    description: "Lighting, Lookdev, Generalist, Environments, Procedural workflows"
+    shows:
+      - "Star Wars: The Mandalorian (S01)"
+      - Locke and Key (S01)
+      - "Star Trek: Discovery (S03 / S04)"
+      - "Star Trek: Picard (S01)"
+      - For All Mankind (S02)
+      - "Star Trek: Strange New Worlds (S01)"
+  - title: "Visual Effects Teacher: Proffessional Training Course"
     company_name: The Animation Workshop
     location: Viborg, Denmark
     start_date: August 2019
-    end_date: August 2020 (1 Week Each)
-    description: Proffessional Training Course (Intro VFX, Maya, Color, Pipeline)
-    shows: []
+    end_date: August 2020 (1 week each year)
+    description: Introduction to VFX, Introduction to Maya, Color Management, Pipeline
   - title: Visual Effects Artist
     company_name: The Animation Workshop
     location: Viborg, Denmark
     start_date: January 2019
     end_date: May 2019
     description: VFX Generalist & Pipeline Tools Software Developer (Python)
-    shows: []
+    shows: 
+      - Augmented Short Film (TBA)
   - title: Unreal Engine Plugin Development
-    company_name: Framestore
-    location: London, United Kingdom
+    company_name: Computer Science Degree - Thesis Project
+    location: Madrid, Spain
     start_date: May 2018
     end_date: July 2018
     description: Tool for Procedural Generation of 3D Environments
-    shows: []
   - title: Backend & Frontend Web Developer
-    company_name: Morfilms App | University R&D Group | CG
-    location: Alcala de Henares, Madrid, Spain
+    company_name: Morfilms App | University R&D Group | CGI Spain
+    location: Madrid, Spain
     start_date: November 2014
     end_date: Octover 2017
-    description: ""
-    shows: []
 education:
   traditional_education:
     - title: Visual Effects Proffessional Training
