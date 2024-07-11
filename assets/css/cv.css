@@ -1,7 +1,151 @@
 :root {
     font-family: Inter, sans-serif;
     font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
-  }
-  @supports (font-variation-settings: normal) {
+
+    --accentRed: rgb(219, 70, 70);
+    --accentBlue: rgb(70, 157, 219);
+    --accentGreen: rgb(65, 200, 104);
+    --accentGrey: rgb(150, 150, 150);
+    --accentColor: var(--accentGrey);
+    --inkColor: rgb(20, 20, 20);
+    --backgroundColor: rgb(250, 250, 250);
+}
+@supports (font-variation-settings: normal) {
     :root { font-family: InterVariable, sans-serif; }
-  }
+}
+
+body {
+    background: var(--backgroundColor);
+	color: var(--inkColor);
+	font-size: 0.95em;
+	padding: 5em;
+	min-width: 0;
+	max-width: 60em;
+	margin: auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.3em;
+    color: var(--accentColor);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h3 {
+    /* margin: 0;
+    margin-top: 1em;
+    margin-bottom: 1em; */
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+
+h4 {
+    margin: 0;
+    margin-top: 1em;;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0;
+    margin-top: 0.2em;
+}
+
+@media all and (min-width: 800px) { 
+    /* column layout only on big displays */
+    .row {
+        margin-top: 2em;
+        display: flex;
+    }
+
+    .columnA {
+        flex: 35%;
+        margin-right: 4em;
+    }
+
+    .columnB {
+        flex: 65%;
+    }
+}
+
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.timeline li {
+    list-style: disc;
+    margin-bottom: 1em;
+}
+
+ul.simplelist {
+    margin-top: 0.5em;
+    /* font-size: 0.95em; */
+}
+
+p.bulletpoints {
+    font-weight: 600;
+    font-size: 0.95em;
+    margin: 0;
+    margin-top: 0.2em;
+}
+
+.grey {
+    color: var(--accentGrey)
+}
+
+.red {
+    color: var(--accentRed)
+}
+
+.green {
+    color: var(--accentGreen)
+}
+
+.blue {
+    color: var(--accentBlue)
+}
+
+/* 
+ul.numbered {
+border-left: 3px solid #b3b3b3;
+counter-reset: numbered-list;
+margin-left: 10px;
+position: relative;
+}
+ul.numbered li {
+font-size: 16px;
+line-height: 1.2;
+margin-bottom: 30px;
+padding-left: 30px;
+}
+ul.numbered li:last-child {
+border-left: 3px solid white;
+margin-left: -3px;
+}
+ul.numbered li:before {
+background-color: #b3b3b3;
+border: 3px solid white;
+border-radius: 50%;
+color: white;
+content: counter(numbered-list, decimal);
+counter-increment: numbered-list;
+display: block;
+font-weight: bold;
+width: 30px;
+height: 30px;
+margin-top: -0.5em;
+line-height: 30px;
+position: absolute;
+left: -19.5px;
+text-align: center;
+} */

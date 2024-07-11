@@ -4,9 +4,9 @@ information:
   role: Visual Effects Generalist
   date_of_birth: May 03, 1994
   place_of_birth: Alcalá de Henares, Madrid, Spain
-  contact: carlosjtacon (at) gmail (dot) com
+  contact: carlosjtacon@gmail.com
   website: www.carlosjtacon.com
-  description: I like art, design, culture, and technology. Versatile, highly
+  description: I like art, design, culture, storytelling and technology so I thought VFX would be a good idea. Versatile, highly
     motivated, responsible, and fast-learner. Technical and creative mind.
 technical_skills:
   expert:
@@ -44,9 +44,10 @@ technical_skills:
     - MASH UVLayout
     - Metashape/Photoscan
     - RV VrayScatter
-    - Afnasy
+    - Afanasy
     - Deadline
-    - Ftrack Shotgun
+    - Ftrack
+    - Shotgun
     - Linux
     - Windows
     - macOS
@@ -72,7 +73,6 @@ experience:
     shows:
       - "Star Trek: Discovery, S05"
       - Uglies (TBA)
-    pipeline:
       - "Render Submitter: Standalone tool written in Python and QT to submit
         shots to the farm."
   - title: Environments TD
@@ -86,15 +86,6 @@ experience:
       - Civil War (2024)
       - His Dark Materials, Season 03 (xxx)
       - Mickey 17 (TBA)
-    pipeline: []
-  - title: Visual Effects Teacher
-    company_name: The Animation Workshop
-    location: Viborg, Denmark
-    start_date: August 2019
-    end_date: August 2020 (1 Week Each)
-    description: Proffessional Training Course (Intro VFX, Maya, Color, Pipeline)
-    shows: []
-    pipeline: []
   - title: Visual Effects Artist
     company_name: GhostVFX
     location: Copenhagen, Denmark
@@ -103,7 +94,13 @@ experience:
     description: "Visual Effects Artist: Mainly Lighting and Look Development. Also
       Generalist, 3D Environments, Procedural Texturing"
     shows: []
-    pipeline: []
+  - title: Visual Effects Teacher
+    company_name: The Animation Workshop
+    location: Viborg, Denmark
+    start_date: August 2019
+    end_date: August 2020 (1 Week Each)
+    description: Proffessional Training Course (Intro VFX, Maya, Color, Pipeline)
+    shows: []
   - title: Visual Effects Artist
     company_name: The Animation Workshop
     location: Viborg, Denmark
@@ -111,7 +108,6 @@ experience:
     end_date: May 2019
     description: VFX Generalist & Pipeline Tools Software Developer (Python)
     shows: []
-    pipeline: []
   - title: Unreal Engine Plugin Development
     company_name: Framestore
     location: London, United Kingdom
@@ -119,7 +115,6 @@ experience:
     end_date: July 2018
     description: Tool for Procedural Generation of 3D Environments
     shows: []
-    pipeline: []
   - title: Backend & Frontend Web Developer
     company_name: Morfilms App | University R&D Group | CG
     location: Alcala de Henares, Madrid, Spain
@@ -127,7 +122,6 @@ experience:
     end_date: Octover 2017
     description: ""
     shows: []
-    pipeline: []
 education:
   traditional_education:
     - title: Visual Effects Proffessional Training
