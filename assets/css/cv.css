@@ -18,7 +18,7 @@ body {
     background: var(--backgroundColor);
 	color: var(--inkColor);
 	font-size: 0.95em;
-	padding: 5em;
+	padding: 3em; 
 	min-width: 0;
 	max-width: 60em;
 	margin: auto;
@@ -60,6 +60,9 @@ p {
 
 @media all and (min-width: 800px) { 
     /* column layout only on big displays */
+    body {
+        padding: 5em !important;
+    }
     .row {
         margin-top: 2em;
         display: flex;
