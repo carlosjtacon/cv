@@ -61,17 +61,17 @@ languages:
   - name: French
     proficiency: Basic A2
 experience:
-  - title: Lighting Lead + Pipeline Tools Developer
+  - title: Lighting Lead + <span class="orange">Pipeline Tools Developer</span>
     company_name: Ghost VFX
     location: London, United Kingdom
     start_date: January 2023
     end_date: Current Role
-    description: Show lighting and team management, helping solving problems and lighting sequences. Pipeline tools and workflows USD and Houdini Solaris.
+    description: Show lighting quality standards, team management, problem solving and sequence lighting setup. Pipeline tools programming and establishing workflows using USD, Houdini Solaris and Nuke.
     shows:
       - "Star Trek: Discovery (S05)"
       - Uglies (2024)
       - Chief of War (S01)
-      - Unannounced Projects
+    pipeline:
       - Different pipeline tools written in Python + QT
       - Multiple pipeline Houdini HDAs to design lighting workflows in Solaris
       - Experience using the OpenUSD API in Python and VEX

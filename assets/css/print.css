@@ -1,9 +1,7 @@
 @media print {
   body {
+    background-color: white;
     font-size: 0.5em !important;
     max-width: 80em !important;
-  }
-  @page {
-    margin: 0;
   }
 }

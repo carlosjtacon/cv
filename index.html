@@ -9,7 +9,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="assets/fonts/inter.css">
     <link rel="stylesheet" href="assets/css/cv.css">
-    <link media="print" rel="stylesheet" href="assets/css/print.css"/>
+    <link media="print" rel="stylesheet" href="assets/css/print.css?v001"/>
 </head>
 <body>
     
@@ -57,14 +57,15 @@
                     <p><b>{{ experience.title }}</b></p>
                     <p>{{ experience.description }}</p>
                     <p><i>{{ experience.company_name }} · {{ experience.location }}</i></p>
-                    <!-- <ul>
-                        {% for pipeitem in experience.pipeline %}
-                        <li>{{ pipeitem }}</li>
-                        {% endfor %}
-                    </ul> -->
                     <p class="bulletpoints blue">
                         {% for show in experience.shows %}
                         {{ show }}
+                        {% unless forloop.last %} · {% endunless -%}
+                        {% endfor %}
+                    </p>
+                    <p class="bulletpoints orange">
+                        {% for exp in experience.pipeline %}
+                        {{ exp }}
                         {% unless forloop.last %} · {% endunless -%}
                         {% endfor %}
                     </p>
