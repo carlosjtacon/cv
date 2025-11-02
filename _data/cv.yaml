@@ -82,7 +82,7 @@ experience:
     location: London, United Kingdom
     start_date: January 2022
     end_date: January 2023
-    description: Environments, Procedural workflows, Scattering, Lookdev,
+    description: Environments, Procedural Workflows, Scattering, Lookdev,
       Lighting
     shows:
       - Moon Knight (S01)
@@ -94,7 +94,7 @@ experience:
     location: Copenhagen, Denmark
     start_date: May 2019
     end_date: December 2021
-    description: "Lighting, Lookdev, Generalist, Environments, Procedural workflows"
+    description: "Lighting, Lookdev, Generalist, Environments, Procedural Workflows"
     shows:
       - "Star Wars: The Mandalorian (S01)"
       - Locke and Key (S01)
@@ -126,7 +126,7 @@ experience:
     company_name: Morfilms App | University R&D Group | CGI Spain
     location: Madrid, Spain
     start_date: November 2014
-    end_date: Octover 2017
+    end_date: October 2017
 education:
   traditional_education:
     - title: Visual Effects Proffessional Training
