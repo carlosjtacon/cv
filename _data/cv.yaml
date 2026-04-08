@@ -6,8 +6,7 @@ information:
   place_of_birth: Alcalá de Henares, Madrid, Spain
   contact: carlosjtacon@gmail.com
   website: www.carlosjtacon.com
-  description: I like art, design, culture, storytelling and technology so I thought VFX would be a good idea. Versatile, highly
-    motivated, responsible, and fast-learner. Technical and creative mind.
+  description: I like art, design, culture, storytelling and technology so I thought VFX would be a good idea. Versatile, highly motivated, responsible, and fast-learner. Technical and creative mind.
 technical_skills:
   expert:
     - Lighting
@@ -65,17 +64,20 @@ experience:
     company_name: Ghost VFX
     location: London, United Kingdom
     start_date: January 2023
-    end_date: Current Role
+    end_date: January 2026
     description: Show lighting quality standards, team management, problem solving and sequence lighting setup. Pipeline tools programming and establishing workflows using USD, Houdini Solaris and Nuke.
     shows:
       - "Star Trek: Discovery (S05)"
       - Uglies (2024)
       - Chief of War (S01)
+      - Good Luck Have Fun Don't Die (2026)
+      - "Star Trek: Strange New Worlds (S04)"
+      - "Star Trek: Starfleet Academy (S02)"
     pipeline:
       - Different pipeline tools written in Python + QT
       - Multiple pipeline Houdini HDAs to design lighting workflows in Solaris
       - Experience using the OpenUSD API in Python and VEX
-      - Scripting with Python for Nuke
+      - Scripting with Python for Nuke to create custom Gizmos
 
   - title: Environments Technical Director
     company_name: Framestore
@@ -151,3 +153,33 @@ education:
       where: FXPHD
     - name: VFX Foundations I & II
       where: FXPHD
+generic:
+  description: Currently living in New Zealand, traveling with a working holiday visa and looking for seasonal work. Fit and motivated to do a good job.
+  driving_license: Spanish Driving License (B) | NZ Driving License (Class 1)
+  phone_number: 021 278 0305
+  interests:
+    - Woodworking
+    - Technology
+    - Filmmaking
+    - Cycling
+    - Tramping
+    - Nature
+    - Crafts
+  experience:
+    - title: Visual Effects for Films and TV
+      description: Worked in the VFX industry for several years in different roles - digital artist, team management and  software development.
+      company_name: Ghost VFX | Framestore
+      location: Copenhagen (Denmark), London (United Kingdom)
+      start_date: January 2019
+      end_date: January 2026
+    - title: Software Engineer and Web Development
+      description: After graduating from computer science I worked for a few years in the university research group, consulting companies and freelance, mostly as web developer.
+      company_name: Morfilms App | University R&D Group | CGI Spain
+      location: Madrid (Spain)
+      start_date: November 2014
+      end_date: October 2017
+  courses:
+    - name: Woodworking for Beginners
+      where: Online
+    - name: Introduction to Joinery
+      where: London New School of Furniture
