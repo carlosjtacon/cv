@@ -72,7 +72,6 @@ experience:
       - Chief of War (S01)
       - Good Luck Have Fun Don't Die (2026)
       - "Star Trek: Strange New Worlds (S04)"
-      - "Star Trek: Starfleet Academy (S02)"
     pipeline:
       - Different pipeline tools written in Python + QT
       - Multiple pipeline Houdini HDAs to design lighting workflows in Solaris
@@ -129,6 +128,87 @@ experience:
     location: Madrid, Spain
     start_date: November 2014
     end_date: October 2017
+imdb:
+  movies:
+    - name: Good Luck Have Fun Don't Die
+      year: 2026
+      company: Ghost VFX
+      role: Lighting Lead
+      poster: 2026-good-luck-have-fun-dont-die.jpg
+    
+    - name: Uglies
+      year: 2024
+      company: Ghost VFX
+      role: Lighting Lead
+      poster: 2024-uglies.jpg
+    
+    - name: Mickey 17
+      year: 2026
+      company: Framestore
+      role: Environments TD
+      poster: 2026-mickey-17.jpg
+    
+    - name: Civil War
+      year: 2024
+      company: Framestore
+      role: Environments TD
+      poster: 2024-civil-war.jpg
+    
+  shows:
+    - name: "Star Trek: Strange New Worlds"
+      seasons: S01, S04
+      company: Ghost VFX
+      role: Visual Effects artist, Lighting Lead
+      poster: 2022-star-trek-strange-new-worlds.jpg
+      
+    - name: Chief of War
+      seasons: S01
+      company: Ghost VFX
+      role: Lighting Artist
+      poster: 2025-chief-of-war.jpg
+      
+    - name: His Dark Materials
+      seasons: S03
+      company: Framestore
+      role: Environments TD
+      poster: 2019-his-dark-materials.jpg
+      
+    - name: Moon Knight
+      seasons: S01
+      company: Framestore
+      role: Environments TD
+      poster: 2022-moon-knight.jpg
+      
+    - name: "Star Trek: Picard"
+      seasons: S01
+      company: Ghost VFX
+      role: Visual Effects Artist
+      poster: 2020-star-trek-picard.jpg
+      
+    - name: Locke and Key
+      seasons: S01
+      company: Ghost VXF
+      role: Visual Effects Artist
+      poster: 2020-locke-and-key.jpg
+      
+    - name: For All Mankind
+      seasons: S02
+      company: Ghost VXF
+      role: Visual Effects Artist
+      poster: 2019-for-all-mankind.jpg
+      
+    - name: "Star Trek: Discovery"
+      seasons: S03, S04, S05
+      company: Ghost VFX
+      role: Visual Effects Artist
+      poster: 2017-star-trek-discovery.jpg
+      
+    - name: "Star Wars: The Mandalorian"
+      seasons: S01
+      company: Ghost VFX
+      role: Visual Effects Artist
+      poster: 2019-the-mandalorian.jpg
+      
 education:
   traditional_education:
     - title: Visual Effects Proffessional Training

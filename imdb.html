@@ -1,0 +1,108 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Tacon - Curriculum Vitae</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/fonts/inter.css">
+    <link rel="stylesheet" href="assets/css/cv.css">
+    <link media="print" rel="stylesheet" href="assets/css/print.css?v001"/>
+	
+	<style>
+		ul.gallery {
+			--numcolumns: 4;
+			--gap: 0.25em;
+			--size: calc(100vw / var(--numcolumns));
+			display: grid;
+			grid-template-columns: repeat(var(--numcolumns), 1fr);
+			
+			grid-template-rows: auto;
+			gap: var(--gap);
+			align-items: stretch;
+			
+			list-style: none;
+		}
+			
+		ul.gallery > li {
+			display: block;
+			height: calc(var(--size) - var(--gap));
+		}
+				
+		.poster {
+			aspect-ratio: 2 / 3;
+		}
+		
+		.poster-image {
+			height: 100%;
+			background-size:     cover;
+			background-repeat:   no-repeat;
+			background-position: center center;
+		}
+		
+		.info {
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			color: rgba(0, 0, 0, 0);
+		}
+		
+		.info:hover {
+			backdrop-filter: brightness(90%) blur(20px);
+			color: whitesmoke;
+			font-size: large;
+			font-weight: 600;
+			text-shadow:
+				1px 1px 2px red,
+				0 0 1em black,
+				0 0 0.2em black;
+			
+		}
+	
+	</style>
+</head>
+<body>
+	<div class="button-strip">
+		<a class="button" style="background-color: lightgray;" href="/"></a>
+	</div>
+    
+    <h1>{{ site.data.cv.information.name }}</h1>
+    <h2>{{ site.data.cv.information.role }}</h2>
+    
+	<h3>Movies</h3>
+	<ul class="gallery">
+	{% for movie in site.data.cv.imdb.movies %}
+		<li class="poster">
+		<div class="poster-image" style="background-image: url('/assets/posters/movies/{{movie.poster}}')";>
+			<div class="info">
+				<br><br><br>
+				<p>{{movie.year}}</p>
+				<p>{{movie.name}}</p>
+				<p>{{movie.company}}</p>
+				<p>{{movie.role}}</p>
+			</div>
+		</div>
+		</li>
+		{% endfor %}
+	</ul>
+	
+	<h3>TV Shows</h3>
+	<ul class="gallery">
+		{% for show in site.data.cv.imdb.shows %}
+		<li class="poster">
+			<div class="poster-image" style="background-image: url('/assets/posters/shows/{{show.poster}}')";>
+				<div class="info">
+					<br><br><br>
+					<p>{{show.seasons}}</p>
+					<p>{{show.name}}</p>
+					<p>{{show.company}}</p>
+					<p>{{show.role}}</p>
+				</div>
+			</div>
+		</li>
+		{% endfor %}
+	</ul>
+</body>
+</html>
