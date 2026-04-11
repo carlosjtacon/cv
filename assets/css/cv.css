@@ -68,13 +68,22 @@ p {
 	
 .button { 
 	position:fixed;  
-	width:50vmin;
-	height:50vmin;
+	width:40vmin;
+	height:40vmin;
 	top:0;
 	right:0;  
-	margin-top:-25vmin;
-	margin-right:-25vmin;
+	margin-top:-20vmin;
+	margin-right:-20vmin;
 	border-radius: 50%;  
+}
+
+@media all and (min-width: 405px) { 
+    .button {
+        width:50vmin !important;
+        height:50vmin !important;
+        margin-top:-25vmin !important;
+        margin-right:-25vmin !important;
+    }
 }
 
 @media all and (min-width: 800px) { 
