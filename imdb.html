@@ -65,7 +65,7 @@
 </head>
 <body>
 	<div class="button-strip">
-		<a class="button" style="background-color: lightgray;" href="/"></a>
+		<a class="button" style="background-color: lightgray;" href="{{site.url}}"></a>
 	</div>
     
     <h1>{{ site.data.cv.information.name }}</h1>
@@ -75,7 +75,7 @@
 	<ul class="gallery">
 	{% for movie in site.data.cv.imdb.movies %}
 		<li class="poster">
-		<div class="poster-image" style="background-image: url('/assets/posters/movies/{{movie.poster}}')";>
+		<div class="poster-image" style="background-image: url('{{site.url}}/assets/posters/movies/{{movie.poster}}')";>
 			<div class="info">
 				<br><br><br>
 				<p>{{movie.year}}</p>
@@ -92,7 +92,7 @@
 	<ul class="gallery">
 		{% for show in site.data.cv.imdb.shows %}
 		<li class="poster">
-			<div class="poster-image" style="background-image: url('/assets/posters/shows/{{show.poster}}')";>
+			<div class="poster-image" style="background-image: url('{{site.url}}/assets/posters/shows/{{show.poster}}')";>
 				<div class="info">
 					<br><br><br>
 					<p>{{show.seasons}}</p>
