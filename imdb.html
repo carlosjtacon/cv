@@ -49,6 +49,10 @@
 			background-position: center center;
 		}
 		
+		.poster-image p {
+			padding: 10px;
+		}
+		
 		.info {
 			width: 100%;
 			height: 100%;
@@ -84,7 +88,7 @@
 		<li class="poster">
 		<div class="poster-image" style="background-image: url('{{site.url}}/assets/posters/movies/{{movie.poster}}')";>
 			<div class="info">
-				<br><br><br>
+				<br><br>
 				<p>{{movie.year}}</p>
 				<p>{{movie.name}}</p>
 				<p>{{movie.company}}</p>
@@ -104,7 +108,7 @@
 		<li class="poster">
 			<div class="poster-image" style="background-image: url('{{site.url}}/assets/posters/shows/{{show.poster}}')";>
 				<div class="info">
-					<br><br><br>
+					<br><br>
 					<p>{{show.seasons}}</p>
 					<p>{{show.name}}</p>
 					<p>{{show.company}}</p>
