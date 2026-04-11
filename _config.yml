@@ -1,1 +1,3 @@
 url: https://carlosjtacon.com/cv/
+exclude:
+  - "*.sh"

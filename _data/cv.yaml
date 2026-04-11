@@ -134,80 +134,80 @@ imdb:
       year: 2026
       company: Ghost VFX
       role: Lighting Lead
-      poster: 2026-good-luck-have-fun-dont-die.jpg
+      poster: 2026-good-luck-have-fun-dont-die.webp
     
     - name: Uglies
       year: 2024
       company: Ghost VFX
       role: Lighting Lead
-      poster: 2024-uglies.jpg
+      poster: 2024-uglies.webp
     
     - name: Mickey 17
       year: 2026
       company: Framestore
       role: Environments TD
-      poster: 2026-mickey-17.jpg
+      poster: 2026-mickey-17.webp
     
     - name: Civil War
       year: 2024
       company: Framestore
       role: Environments TD
-      poster: 2024-civil-war.jpg
+      poster: 2024-civil-war.webp
     
   shows:
     - name: "Star Trek: Strange New Worlds"
       seasons: S01, S04
       company: Ghost VFX
       role: Visual Effects artist, Lighting Lead
-      poster: 2022-star-trek-strange-new-worlds.jpg
+      poster: 2022-star-trek-strange-new-worlds.webp
       
     - name: Chief of War
       seasons: S01
       company: Ghost VFX
       role: Lighting Artist
-      poster: 2025-chief-of-war.jpg
+      poster: 2025-chief-of-war.webp
       
     - name: His Dark Materials
       seasons: S03
       company: Framestore
       role: Environments TD
-      poster: 2019-his-dark-materials.jpg
+      poster: 2019-his-dark-materials.webp
       
     - name: Moon Knight
       seasons: S01
       company: Framestore
       role: Environments TD
-      poster: 2022-moon-knight.jpg
+      poster: 2022-moon-knight.webp
       
     - name: "Star Trek: Picard"
       seasons: S01
       company: Ghost VFX
       role: Visual Effects Artist
-      poster: 2020-star-trek-picard.jpg
+      poster: 2020-star-trek-picard.webp
       
     - name: Locke and Key
       seasons: S01
       company: Ghost VXF
       role: Visual Effects Artist
-      poster: 2020-locke-and-key.jpg
+      poster: 2020-locke-and-key.webp
       
     - name: For All Mankind
       seasons: S02
       company: Ghost VXF
       role: Visual Effects Artist
-      poster: 2019-for-all-mankind.jpg
+      poster: 2019-for-all-mankind.webp
       
     - name: "Star Trek: Discovery"
       seasons: S03, S04, S05
       company: Ghost VFX
       role: Visual Effects Artist
-      poster: 2017-star-trek-discovery.jpg
+      poster: 2017-star-trek-discovery.webp
       
     - name: "Star Wars: The Mandalorian"
       seasons: S01
       company: Ghost VFX
       role: Visual Effects Artist
-      poster: 2019-the-mandalorian.jpg
+      poster: 2019-the-mandalorian.webp
       
 education:
   traditional_education:
