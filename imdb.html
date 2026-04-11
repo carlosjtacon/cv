@@ -12,8 +12,14 @@
     <link media="print" rel="stylesheet" href="assets/css/print.css?v001"/>
 	
 	<style>
+		/* DESKTOP OVERRIDES */
+		@media all and (min-width: 800px) { 
+			ul.gallery {
+				--numcolumns: 4 !important;
+			}
+		}
 		ul.gallery {
-			--numcolumns: 4;
+			--numcolumns: 1;
 			--gap: 0.25em;
 			--size: calc(100vw / var(--numcolumns));
 			display: grid;
@@ -28,7 +34,8 @@
 			
 		ul.gallery > li {
 			display: block;
-			height: calc(var(--size) - var(--gap));
+			/* height: calc(var(--size) - var(--gap)); */
+			width: 100%;
 		}
 				
 		.poster {
@@ -87,6 +94,9 @@
 		</li>
 		{% endfor %}
 	</ul>
+	
+	<br>
+	<br>
 	
 	<h3>TV Shows</h3>
 	<ul class="gallery">
