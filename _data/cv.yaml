@@ -182,7 +182,7 @@ imdb:
     - name: "Star Trek: Picard"
       seasons: S01
       company: Ghost VFX
-      role: Visual Effects Artist
+      role: Visual Effects Artist, Lighting Artist
       poster: 2020-star-trek-picard.webp
       
     - name: Locke and Key
@@ -194,13 +194,13 @@ imdb:
     - name: For All Mankind
       seasons: S02
       company: Ghost VXF
-      role: Visual Effects Artist
+      role: Visual Effects Artist, Lighting Artist
       poster: 2019-for-all-mankind.webp
       
     - name: "Star Trek: Discovery"
       seasons: S03, S04, S05
       company: Ghost VFX
-      role: Visual Effects Artist
+      role: Visual Effects Artist, Lighting Artist, Lighting Lead
       poster: 2017-star-trek-discovery.webp
       
     - name: "Star Wars: The Mandalorian"
