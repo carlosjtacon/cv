@@ -45,7 +45,7 @@ h3 {
     margin-bottom: 1em; */
     font-size: 1.25em;
     text-transform: uppercase;
-    padding-top: 1.35em;
+    padding-top: 1.25em;
 }
 
 h4 {
@@ -92,17 +92,16 @@ p {
         padding: 5em !important;
     }
     .row {
-        margin-top: 2em;
         display: flex;
     }
 
     .columnA {
-        flex: 35%;
+        flex: 38%;
         margin-right: 4em;
     }
 
     .columnB {
-        flex: 65%;
+        flex: 62%;
     }
 }
 

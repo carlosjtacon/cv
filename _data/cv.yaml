@@ -65,7 +65,7 @@ experience:
     location: London, United Kingdom
     start_date: January 2023
     end_date: January 2026
-    description: Show lighting quality standards, team management, problem solving and sequence lighting setup. Pipeline tools programming and establishing workflows using USD, Houdini Solaris and Nuke.
+    description: Show lighting quality standards, team management, problem solving and sequence lighting setup. Pipeline tools programming and designing department workflows using USD, Houdini Solaris and Nuke.
     shows:
       - "Star Trek: Discovery (S05)"
       - Uglies (2024)
@@ -103,13 +103,7 @@ experience:
       - "Star Trek: Picard (S01)"
       - For All Mankind (S02)
       - "Star Trek: Strange New Worlds (S01)"
-  - title: "Visual Effects Teacher: Proffessional Training Course"
-    company_name: The Animation Workshop
-    location: Viborg, Denmark
-    start_date: August 2019
-    end_date: August 2020 (1 week each year)
-    description: Introduction to VFX, Introduction to Maya, Color Management, Pipeline
-  - title: Visual Effects Artist
+  - title: Resident Visual Effects Artist
     company_name: The Animation Workshop
     location: Viborg, Denmark
     start_date: January 2019
@@ -117,17 +111,54 @@ experience:
     description: VFX Generalist & Pipeline Tools Software Developer (Python)
     shows: 
       - Augmented Short Film (TBA)
-  - title: Unreal Engine Plugin Development
-    company_name: Computer Science Degree - Thesis Project
-    location: Madrid, Spain
-    start_date: May 2018
-    end_date: July 2018
-    description: Tool for Procedural Generation of 3D Environments
   - title: Backend & Frontend Web Developer
     company_name: Morfilms App | University R&D Group | CGI Spain
     location: Madrid, Spain
     start_date: November 2014
     end_date: October 2017
+teaching_experience:
+    - title: "Conference: How to make a Black Hole for a high end TV Show"
+      company_name: Tech Art Worlds
+      location: Online
+      start_date: April 2025
+      description: Showcasing professional techniques from a VFX generalist perspective
+    - title: "Guest Teacher: VFX Professional Training Course"
+      company_name: The Animation Workshop
+      location: Viborg, Denmark
+      start_date: August 2019
+      end_date: August 2020 (1 week each year)
+      description: Introduction to VFX, Introduction to Maya, Color Management, Pipeline
+education:
+  traditional_education:
+    - title: Visual Effects Professional Training
+      school_name: The Animation Workshop
+      location: Viborg, Denmark
+      start_date: September 2018
+      end_date: December 2018
+    - title: Unreal Engine Plugin Development
+      school_name: University Thesis Project
+      location: Madrid, Spain
+      start_date: May 2018
+      end_date: July 2018
+      description: Procedural Generation of 3D Environments
+    - title: Computer Science University Degree
+      school_name: Alcalá University
+      location: Madrid, Spain
+      start_date: September 2012
+      end_date: July 2018
+    - title: Cinematography and New Media Course
+      school_name: Transforming Arts Institute
+      location: Madrid, Spain
+      start_date: September 2016
+      end_date: June 2017
+  online_courses:
+    - name: Arnold Fastrack
+      where: Elephant VFX
+    - name: Intro to Digital Colour Theory
+      where: FXPHD
+    - name: VFX Foundations I & II
+      where: FXPHD
+      
 imdb:
   movies:
     - name: Good Luck Have Fun Don't Die
@@ -209,30 +240,6 @@ imdb:
       role: Visual Effects Artist
       poster: 2019-the-mandalorian.webp
       
-education:
-  traditional_education:
-    - title: Visual Effects Proffessional Training
-      school_name: The Animation Workshop
-      location: Viborg, Denmark
-      start_date: September 2018
-      end_date: December 2018
-    - title: Computer Science University Degree
-      school_name: Alcalá University
-      location: Madrid, Spain
-      start_date: September 2012
-      end_date: July 2018
-    - title: Cinematography and New Media Course
-      school_name: Transforming Arts Institute
-      location: Madrid, Spain
-      start_date: September 2016
-      end_date: June 2017
-  online_courses:
-    - name: Arnold Fastrack
-      where: Elephant VFX
-    - name: Introduction to Digital Colour Theory
-      where: FXPHD
-    - name: VFX Foundations I & II
-      where: FXPHD
 generic:
   description: Currently living in New Zealand, traveling with a working holiday visa and looking for seasonal work. Fit and motivated to do a good job.
   driving_license: Spanish Driving License (B) | NZ Driving License (Class 1)

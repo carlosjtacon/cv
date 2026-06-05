@@ -1,7 +1,17 @@
 @media print {
+  :root {
+    --accentGreen: rgb(13, 138, 49) !important;
+    --accentGrey: rgb(113, 113, 113) !important;
+  }
+  
   body {
     background-color: white;
     font-size: 0.5em !important;
     max-width: 80em !important;
   }
+  
+  .button-strip {
+	display: none;
+}  
+	
 }
