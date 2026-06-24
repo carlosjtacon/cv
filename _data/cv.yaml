@@ -36,9 +36,9 @@ technical_skills:
     - Arnold
     - VRay
     - 3DEqualizer
-    - Mari 
+    - Mari
     - Substance Painter
-    - Substance Designer 
+    - Substance Designer
     - Houdini
     - Nuke
     - SpeedTree
@@ -109,7 +109,7 @@ experience:
     start_date: January 2019
     end_date: May 2019
     description: VFX Generalist & Pipeline Tools Software Developer (Python)
-    shows: 
+    shows:
       - Augmented Short Film (TBA)
   - title: Backend & Frontend Web Developer
     company_name: Morfilms App | University R&D Group | CGI Spain
@@ -152,121 +152,11 @@ education:
       start_date: September 2016
       end_date: June 2017
   online_courses:
+    - name: Introduction to Stop Motion Animation
+      where: Ikaroa School, Madrid
     - name: Arnold Fastrack
-      where: Elephant VFX
-    - name: Intro to Digital Colour Theory
-      where: FXPHD
+      where: Elephant VFX, Online
+    - name: Introduction to Digital Colour Theory
+      where: FXPHD, Online
     - name: VFX Foundations I & II
-      where: FXPHD
-      
-imdb:
-  movies:
-    - name: Good Luck Have Fun Don't Die
-      year: 2026
-      company: Ghost VFX
-      role: Lighting Lead
-      poster: 2026-good-luck-have-fun-dont-die.webp
-    
-    - name: Uglies
-      year: 2024
-      company: Ghost VFX
-      role: Lighting Lead
-      poster: 2024-uglies.webp
-    
-    - name: Mickey 17
-      year: 2026
-      company: Framestore
-      role: Environments TD
-      poster: 2026-mickey-17.webp
-    
-    - name: Civil War
-      year: 2024
-      company: Framestore
-      role: Environments TD
-      poster: 2024-civil-war.webp
-    
-  shows:
-    - name: "Star Trek: Strange New Worlds"
-      seasons: S01, S04
-      company: Ghost VFX
-      role: Visual Effects Artist, Lighting Lead
-      poster: 2022-star-trek-strange-new-worlds.webp
-      
-    - name: Chief of War
-      seasons: S01
-      company: Ghost VFX
-      role: Lighting Artist
-      poster: 2025-chief-of-war.webp
-      
-    - name: His Dark Materials
-      seasons: S03
-      company: Framestore
-      role: Environments TD
-      poster: 2019-his-dark-materials.webp
-      
-    - name: Moon Knight
-      seasons: S01
-      company: Framestore
-      role: Environments TD
-      poster: 2022-moon-knight.webp
-      
-    - name: "Star Trek: Picard"
-      seasons: S01
-      company: Ghost VFX
-      role: Visual Effects Artist, Lighting Artist
-      poster: 2020-star-trek-picard.webp
-      
-    - name: Locke and Key
-      seasons: S01
-      company: Ghost VXF
-      role: Visual Effects Artist
-      poster: 2020-locke-and-key.webp
-      
-    - name: For All Mankind
-      seasons: S02
-      company: Ghost VXF
-      role: Visual Effects Artist, Lighting Artist
-      poster: 2019-for-all-mankind.webp
-      
-    - name: "Star Trek: Discovery"
-      seasons: S03, S04, S05
-      company: Ghost VFX
-      role: Visual Effects Artist, Lighting Artist, Lighting Lead
-      poster: 2017-star-trek-discovery.webp
-      
-    - name: "Star Wars: The Mandalorian"
-      seasons: S01
-      company: Ghost VFX
-      role: Visual Effects Artist
-      poster: 2019-the-mandalorian.webp
-      
-generic:
-  description: Currently living in New Zealand, traveling with a working holiday visa and looking for seasonal work. Fit and motivated to do a good job.
-  driving_license: Spanish Driving License (B) | NZ Driving License (Class 1)
-  phone_number: 021 278 0305
-  interests:
-    - Woodworking
-    - Technology
-    - Filmmaking
-    - Cycling
-    - Tramping
-    - Nature
-    - Crafts
-  experience:
-    - title: Visual Effects for Films and TV
-      description: Worked in the VFX industry for several years in different roles - digital artist, team management and  software development.
-      company_name: Ghost VFX | Framestore
-      location: Copenhagen (Denmark), London (United Kingdom)
-      start_date: January 2019
-      end_date: January 2026
-    - title: Software Engineer and Web Development
-      description: After graduating from computer science I worked for a few years in the university research group, consulting companies and freelance, mostly as web developer.
-      company_name: Morfilms App | University R&D Group | CGI Spain
-      location: Madrid (Spain)
-      start_date: November 2014
-      end_date: October 2017
-  courses:
-    - name: Woodworking for Beginners
-      where: Online
-    - name: Introduction to Joinery
-      where: London New School of Furniture
+      where: FXPHD, Online

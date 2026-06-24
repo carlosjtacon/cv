@@ -1,5 +1,6 @@
 {
   "cssvalidator.enabled" : false,
+  "editor.default_syntax" : "liquid-html",
   "workspace.color" : 14,
   "workspace.name" : "cv"
 }

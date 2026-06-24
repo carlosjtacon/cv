@@ -1,4 +1,5 @@
 ---
+permalink: /
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -13,12 +14,12 @@
 </head>
 <body>
     <div class="button-strip">
-		<a class="button" style="background-color: gold;" href="{{site.url}}imdb"></a>
-	</div>
-    
+        <a class="button" style="background-color: gold;" href="{{site.url}}/imdb"></a>
+    </div>
+
     <h1>{{ site.data.cv.information.name }}</h1>
     <h2>{{ site.data.cv.information.role }}</h2>
-    
+
     <div class="row">
         <div class="columnA">
             <h3>Information</h3>
@@ -27,15 +28,17 @@
             <p class="bulletpoints green">{{ site.data.cv.information.place_of_birth }}</p>
             <p class="bulletpoints green">{{ site.data.cv.information.website }}</p>
             <p class="bulletpoints green">{{ site.data.cv.information.contact }}</p>
+
             <br>
             <p>{{ site.data.cv.information.description }}</p>
+
 
             <h3>Technical Skills</h3>
             {% for skill_type in site.data.cv.technical_skills %}
             <h4>{{ skill_type[0] | capitalize }}</h4>
             <p class="bulletpoints red">
                 {% for skill in skill_type[1] %}
-                    {{ skill }} 
+                    {{ skill }}
                     {% unless forloop.last %} · {% endunless -%}
                 {% endfor %}
             </p>
@@ -52,11 +55,11 @@
                 </li>
                 {% endfor %}
             </ul>
-            <h3>Online Courses</h3>
+            <h3>Courses</h3>
             <ul class="simplelist">
                 {% for education in site.data.cv.education.online_courses %}
                 <li>
-                    <p><b>{{ education.name }}</b> · <i>{{ education.where }}</i></p>
+                    <p><b>{{ education.name }}</b> <br> <i>{{ education.where }}</i></p>
                 </li>
                 {% endfor %}
             </ul>
@@ -70,7 +73,7 @@
             {% endfor %}
             </ul>
         </div>
-        
+
         <div class="columnB">
             <h3>Professional Experience</h3>
             <ul class="timeline">
@@ -95,7 +98,7 @@
                 </li>
                 {% endfor %}
             </ul>
-            
+
             <h3>Teaching Experience</h3>
             <ul class="timeline">
                 {% for experience in site.data.cv.teaching_experience %}
@@ -119,10 +122,10 @@
                 </li>
                 {% endfor %}
             </ul>
-        
-            
+
+
         </div>
     </div>
-    
+
 </body>
 </html>

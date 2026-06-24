@@ -1,3 +1,7 @@
 url: https://carlosjtacon.com/cv/
 exclude:
   - "*.sh"
+
+collections:
+  pages:
+    output: true

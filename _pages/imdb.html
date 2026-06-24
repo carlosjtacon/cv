@@ -1,4 +1,5 @@
 ---
+permalink: /imdb
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -10,10 +11,10 @@
     <link rel="stylesheet" href="assets/fonts/inter.css">
     <link rel="stylesheet" href="assets/css/cv.css">
     <link media="print" rel="stylesheet" href="assets/css/print.css?v001"/>
-	
+
 	<style>
 		/* DESKTOP OVERRIDES */
-		@media all and (min-width: 800px) { 
+		@media all and (min-width: 800px) {
 			ul.gallery {
 				--numcolumns: 4 !important;
 			}
@@ -24,42 +25,42 @@
 			--size: calc(100vw / var(--numcolumns));
 			display: grid;
 			grid-template-columns: repeat(var(--numcolumns), 1fr);
-			
+
 			grid-template-rows: auto;
 			gap: var(--gap);
 			align-items: stretch;
-			
+
 			list-style: none;
 		}
-			
+
 		ul.gallery > li {
 			display: block;
 			/* height: calc(var(--size) - var(--gap)); */
 			width: 100%;
 		}
-				
+
 		.poster {
 			aspect-ratio: 2 / 3;
 		}
-		
+
 		.poster-image {
 			height: 100%;
 			background-size:     cover;
 			background-repeat:   no-repeat;
 			background-position: center center;
 		}
-		
+
 		.poster-image p {
 			padding: 10px;
 		}
-		
+
 		.info {
 			width: 100%;
 			height: 100%;
 			text-align: center;
 			color: rgba(0, 0, 0, 0);
 		}
-		
+
 		.info:hover {
 			backdrop-filter: brightness(90%) blur(20px);
 			color: whitesmoke;
@@ -69,22 +70,22 @@
 				1px 1px 2px red,
 				0 0 1em black,
 				0 0 0.2em black;
-			
+
 		}
-	
+
 	</style>
 </head>
 <body>
 	<div class="button-strip">
 		<a class="button" style="background-color: lightgray;" href="{{site.url}}"></a>
 	</div>
-    
+
     <h1>{{ site.data.cv.information.name }}</h1>
     <h2>{{ site.data.cv.information.role }}</h2>
-    
+
 	<h3>Movies</h3>
 	<ul class="gallery">
-	{% for movie in site.data.cv.imdb.movies %}
+	{% for movie in site.data.imdb.movies %}
 		<li class="poster">
 		<div class="poster-image" style="background-image: url('{{site.url}}/assets/posters/movies/{{movie.poster}}')";>
 			<div class="info">
@@ -98,13 +99,13 @@
 		</li>
 		{% endfor %}
 	</ul>
-	
+
 	<br>
 	<br>
-	
+
 	<h3>TV Shows</h3>
 	<ul class="gallery">
-		{% for show in site.data.cv.imdb.shows %}
+		{% for show in site.data.imdb.shows %}
 		<li class="poster">
 			<div class="poster-image" style="background-image: url('{{site.url}}/assets/posters/shows/{{show.poster}}')";>
 				<div class="info">

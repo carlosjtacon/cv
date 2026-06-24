@@ -1,0 +1,75 @@
+information:
+  name: Carlos Tacón
+  fullname: Carlos Tacón Fernández
+  role: Visual Effects Generalist
+  date_of_birth: May 03, 1994
+  place_of_birth: Alcalá de Henares, Madrid, Spain
+  contact: carlosjtacon@gmail.com
+  phone_number: 021 278 0305
+  website: www.carlosjtacon.com
+  description: Currently living in New Zealand, traveling with a working holiday visa and looking for fixed-term work. Fit and motivated to do a good job. I like art, design, culture, storytelling and technology so I thought VFX would be a good idea. Versatile, highly motivated, responsible, and fast-learner. Technical and creative mind.
+
+languages:
+  - name: Spanish
+    proficiency: Native Speaker
+  - name: English
+    proficiency: Professional C1
+  - name: French
+    proficiency: Basic A2
+
+interests:
+  - Woodworking
+  - Technology
+  - Filmmaking
+  - Cycling
+  - Tramping
+  - Nature
+  - Crafts
+other:
+  - key: References
+    value: Available upon request
+  - key: New Zealand Driving License
+    value: Class 1
+
+experience:
+  - title: Kiwifruit Picking
+    description: Picking for the gold kiwifruit season.
+    company_name: Growco
+    location: Bay of Plenty (New Zealand)
+    start_date: April 2026
+    end_date: June 2026
+  - title: Visual Effects for Films and TV
+    description: Worked in the VFX industry for several years in different roles - digital artist, team management and  software development.
+    company_name: Ghost VFX | Framestore
+    location: Copenhagen (Denmark), London (United Kingdom)
+    start_date: January 2019
+    end_date: January 2026
+  - title: Software Engineer and Web Development
+    description: After graduating from computer science I worked for a few years in the university research group, consulting companies and freelance, mostly as web developer.
+    company_name: Morfilms App | University R&D Group | CGI Spain
+    location: Madrid (Spain)
+    start_date: November 2014
+    end_date: October 2017
+
+education:
+  traditional_education:
+    - title: Visual Effects Professional Training
+      school_name: The Animation Workshop
+      location: Viborg, Denmark
+      start_date: September 2018
+      end_date: December 2018
+    - title: Computer Science University Degree
+      school_name: Alcalá University
+      location: Madrid, Spain
+      start_date: September 2012
+      end_date: July 2018
+    - title: Cinematography and New Media Course
+      school_name: Transforming Arts Institute
+      location: Madrid, Spain
+      start_date: September 2016
+      end_date: June 2017
+  courses:
+    - name: Woodworking for Beginners
+      where: Online
+    - name: Introduction to Joinery
+      where: London New School of Furniture
