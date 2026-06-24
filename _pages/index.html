@@ -27,10 +27,12 @@ permalink: /
             <p class="bulletpoints green">{{ site.data.cv.information.fullname }}</p>
             <p class="bulletpoints green">{{ site.data.cv.information.place_of_birth }}</p>
             <p class="bulletpoints green">{{ site.data.cv.information.website }}</p>
-            <p class="bulletpoints green">{{ site.data.cv.information.contact }}</p>
 
             <br>
             <p>{{ site.data.cv.information.description }}</p>
+            <br>
+            <p>Contact me at <a href="mailto:{{ site.data.cv.information.contact }}""><b>{{ site.data.cv.information.contact }}</b></a></p>
+            <p>Latest showreel <a href="https://showreel.carlosjtacon.com"><b>showreel.carlosjtacon.com</b></a></p>
 
 
             <h3>Technical Skills</h3>
@@ -49,7 +51,7 @@ permalink: /
                 {% for education in site.data.cv.education.traditional_education %}
                 <li>
                     <p><i>{{ education.start_date }} - {{ education.end_date }}</i></p>
-                    <p><b>{{ education.title }}</b></p>
+                    <p><strong>{{ education.title }}</strong></p>
                     {% if education.description %}<p>{{ education.description }}</p>{% endif %}
                     <p><i>{{ education.school_name }} · {{ education.location }}</i></p>
                 </li>
@@ -59,7 +61,7 @@ permalink: /
             <ul class="simplelist">
                 {% for education in site.data.cv.education.online_courses %}
                 <li>
-                    <p><b>{{ education.name }}</b> <br> <i>{{ education.where }}</i></p>
+                    <p><strong>{{ education.name }}</strong> · <i>{{ education.where }}</i></p>
                 </li>
                 {% endfor %}
             </ul>
@@ -68,7 +70,7 @@ permalink: /
             <ul class="simplelist">
             {% for language in site.data.cv.languages %}
                 <li>
-                    <p><b>{{ language.name }}</b> · <i>{{ language.proficiency }}</i></p>
+                    <p><strong>{{ language.name }}</strong> · <i>{{ language.proficiency }}</i></p>
                 </li>
             {% endfor %}
             </ul>
@@ -76,11 +78,11 @@ permalink: /
 
         <div class="columnB">
             <h3>Professional Experience</h3>
-            <ul class="timeline">
+            <ul class="timeline hand">
                 {% for experience in site.data.cv.experience %}
                 <li>
                     <p><i>{{ experience.start_date }} - {{ experience.end_date }}</i></p>
-                    <p><b>{{ experience.title }}</b></p>
+                    <p><strong>{{ experience.title }}</strong></p>
                     <p>{{ experience.description }}</p>
                     <p><i>{{ experience.company_name }} · {{ experience.location }}</i></p>
                     <p class="bulletpoints blue">
@@ -104,7 +106,7 @@ permalink: /
                 {% for experience in site.data.cv.teaching_experience %}
                 <li>
                     <p><i>{{ experience.start_date }} {% if experience.end_date %}- {{ experience.end_date }} {% endif %}</i></p>
-                    <p><b>{{ experience.title }}</b></p>
+                    <p><strong>{{ experience.title }}</strong></p>
                     <p>{{ experience.description }}</p>
                     <p><i>{{ experience.company_name }} · {{ experience.location }}</i></p>
                     <p class="bulletpoints blue">

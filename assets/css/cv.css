@@ -1,6 +1,7 @@
 :root {
     font-family: Inter, sans-serif;
-    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+    font-feature-settings: 'liga' 1, 'calt' 1;
+    /* fix for Chrome */
 
     --accentRed: rgb(219, 70, 70);
     --accentBlue: rgb(70, 157, 219);
@@ -11,24 +12,28 @@
     --inkColor: rgb(20, 20, 20);
     --backgroundColor: rgb(250, 250, 250);
 }
+
 @supports (font-variation-settings: normal) {
-    :root { font-family: InterVariable, sans-serif; }
+    :root {
+        font-family: InterVariable, sans-serif;
+    }
 }
 
 body {
     background-color: var(--backgroundColor);
-	color: var(--inkColor);
-	font-size: 0.95em;
-	padding: 2em; 
-	min-width: 0;
-	max-width: 60em;
-	margin: auto;
+    color: var(--inkColor);
+    font-size: 0.95em;
+    padding: 2em;
+    min-width: 0;
+    max-width: 60em;
+    margin: auto;
 }
 
 h1 {
     margin: 0;
     font-size: 2.5em;
     text-transform: uppercase;
+    font-weight: 750;
 }
 
 h2 {
@@ -58,39 +63,51 @@ h4 {
 p {
     margin: 0;
     margin-top: 0.2em;
+
+    strong {
+        font-size: 1.05em;
+        font-weight: 725;
+    }
+}
+
+a {
+    color: var(--inkColor);
 }
 
 .button-strip {
-	position:relative;
-	width:100%;
-	overflow-x:hidden;
-}  
-	
-.button { 
-	position:fixed;  
-	width:40vmin;
-	height:40vmin;
-	top:0;
-	right:0;  
-	margin-top:-20vmin;
-	margin-right:-20vmin;
-	border-radius: 50%;  
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    z-index: 10;
 }
 
-@media all and (min-width: 405px) { 
+.button {
+    position: fixed;
+    width: 40vmin;
+    height: 40vmin;
+    top: 0;
+    right: 0;
+    margin-top: -20vmin;
+    margin-right: -20vmin;
+    border-radius: 50%;
+}
+
+@media all and (min-width: 405px) {
     .button {
-        width:50vmin !important;
-        height:50vmin !important;
-        margin-top:-25vmin !important;
-        margin-right:-25vmin !important;
+        width: 50vmin !important;
+        height: 50vmin !important;
+        margin-top: -25vmin !important;
+        margin-right: -25vmin !important;
     }
 }
 
-@media all and (min-width: 800px) { 
+@media all and (min-width: 800px) {
+
     /* column layout only on big displays */
     body {
-        padding: 5em !important;
+        padding: 3em !important;
     }
+
     .row {
         display: flex;
     }
@@ -106,7 +123,8 @@ p {
 }
 
 
-ul, li {
+ul,
+li {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -145,8 +163,35 @@ p.bulletpoints {
 }
 
 ul.timeline li {
-    list-style: disc;
+    /* list-style: disc; */
     margin-bottom: 1em;
+    position: relative;
+}
+
+@counter-style --hand {
+    system: cyclic;
+    symbols: '☞' '·' '·' '·' '·' ;
+}
+
+@counter-style --dot {
+    system: cyclic;
+    symbols: '·' ;
+}
+
+ul.timeline li::before {
+    position: absolute;
+    margin-top: 0.2em;
+    inset-inline-start: -1.25em;
+    inline-size: 1em;
+    text-align: end;
+    font-size: 2lh;
+    color: var(--accentGrey);
+    font-weight: 1000;
+    content: counter(list-item, --dot);
+}
+
+ul.hand li::before {
+    content: counter(list-item, --hand) !important;
 }
 
 /* Alternative timeline style
@@ -178,6 +223,6 @@ ul.timeline li:before {
     margin-top: 0;
     position: absolute;
     left: -0.55em;
-} 
+}
 
 */

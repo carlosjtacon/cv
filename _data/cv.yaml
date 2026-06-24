@@ -3,10 +3,12 @@ information:
   fullname: Carlos Tacón Fernández
   role: Visual Effects Generalist
   date_of_birth: May 03, 1994
-  place_of_birth: Alcalá de Henares, Madrid, Spain
+  place_of_birth: Alcalá de Henares, Madrid - Spain
   contact: carlosjtacon@gmail.com
   website: www.carlosjtacon.com
-  description: I like art, design, culture, storytelling and technology so I thought VFX would be a good idea. Versatile, highly motivated, responsible, and fast-learner. Technical and creative mind.
+  imdb:
+  linkedin:
+  description: I like art, design, popular culture, storytelling and technology so I thought working on VFX would be a good idea. Versatile, highly motivated, responsible, and fast-learner. With both technical and creative mind.
 technical_skills:
   expert:
     - Lighting
@@ -25,9 +27,10 @@ technical_skills:
   begginner:
     - Modeling
     - UV Mapping
-    - Digital Matte Paiting
-  programming:
+    - Digital Matte Painting
+  programming languages:
     - Python
+    - Lua
     - C/C++
     - Java
     - Web
@@ -152,11 +155,11 @@ education:
       start_date: September 2016
       end_date: June 2017
   online_courses:
-    - name: Introduction to Stop Motion Animation
-      where: Ikaroa School, Madrid
+    - name: Stop Motion Animation
+      where: Ikaroa, Madrid
     - name: Arnold Fastrack
       where: Elephant VFX, Online
-    - name: Introduction to Digital Colour Theory
+    - name: Digital Colour Theory
       where: FXPHD, Online
     - name: VFX Foundations I & II
       where: FXPHD, Online
