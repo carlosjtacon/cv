@@ -92,6 +92,17 @@ a {
     border-radius: 50%;
 }
 
+.avatar {
+    width: 70%;
+    aspect-ratio: 1/1;
+    /* border-radius: 50%; */
+    border: 5px solid var(--accentGrey);
+    margin-top: 3.25em;
+    /* margin-left: 15%; */
+    margin-bottom: 1em;
+    box-shadow: 4px 4px 0px var(--inkColor);
+}
+
 @media all and (min-width: 405px) {
     .button {
         width: 50vmin !important;

@@ -7,7 +7,7 @@ information:
   contact: carlosjtacon@gmail.com
   phone_number: 021 278 0305
   website: www.carlosjtacon.com
-  description: Currently living in New Zealand, traveling with a working holiday visa and looking for fixed-term work. Fit and motivated to do a good job. I like art, design, culture, storytelling and technology so I thought VFX would be a good idea. Versatile, highly motivated, responsible, and fast-learner. Technical and creative mind.
+  description: Currently living in New Zealand, travelling with a working holiday visa and looking for fixed-term work. Fit and motivated to do a good job and develop new skills. Versatile, responsible, and fast-learner. Technical and creative mind. Always coming up with new projects.
 
 languages:
   - name: Spanish
@@ -17,31 +17,50 @@ languages:
   - name: French
     proficiency: Basic A2
 
-interests:
-  - Woodworking
-  - Technology
+skills:
+  - Programming
+  - Web Development
+  - Computers IT
+  - Photography
   - Filmmaking
+  - Design
+  - Woodworking
+  - Joinery
+
+interests:
+  - Nature
+  - Technology
+  - Cinema
+  - Music
   - Cycling
   - Tramping
-  - Nature
-  - Crafts
+  - DIY
+
 other:
   - key: References
     value: Available upon request
   - key: New Zealand Driving License
     value: Class 1
+  - key: Working Holiday Visa
+    value: Until February 2027
 
 experience:
   - title: Kiwifruit Picking
-    description: Picking for the gold kiwifruit season.
+    description: Picking in multiple orchards for the gold kiwifruit season.
     company_name: Growco
     location: Bay of Plenty (New Zealand)
     start_date: April 2026
     end_date: June 2026
+  - title: Teaching Experience
+    description: I have in person and online teaching experience doing workshops for different visual effects schools.
+    company_name: The Animation Workshop | TechArt Worlds
+    location: Viborg (Denmark) + Online
+    start_date: 2019
+    end_date: 2025
   - title: Visual Effects for Films and TV
     description: Worked in the VFX industry for several years in different roles - digital artist, team management and  software development.
     company_name: Ghost VFX | Framestore
-    location: Copenhagen (Denmark), London (United Kingdom)
+    location: Copenhagen (Denmark) + London (United Kingdom)
     start_date: January 2019
     end_date: January 2026
   - title: Software Engineer and Web Development
@@ -70,6 +89,10 @@ education:
       end_date: June 2017
   courses:
     - name: Woodworking for Beginners
-      where: Online
+      where: Maderística
     - name: Introduction to Joinery
       where: London New School of Furniture
+    - name: Japanese Stool Project
+      where: London New School of Furniture
+    - name: Introduction to Stop Motion Animation
+      where: Ikaroa School
