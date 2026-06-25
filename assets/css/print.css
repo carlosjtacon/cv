@@ -1,7 +1,7 @@
 @media print {
   :root {
-    --accentGreen: rgb(13, 138, 49) !important;
-    --accentGrey: rgb(113, 113, 113) !important;
+    /* --accentGreen: rgb(7, 173, 56) !important;
+    --accentGrey: rgb(141, 141, 141) !important; */
   }
 
   body {
