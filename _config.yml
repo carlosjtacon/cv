@@ -5,3 +5,4 @@ exclude:
 collections:
   pages:
     output: true
+
